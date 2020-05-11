@@ -146,7 +146,8 @@ compute_targbetween <- function(network, paths, num_dyads, update = 0) {
       }
       if(i == 1) {
          if(length(paths[i][[1]]$name) > 2) {
-            all_paths[[dyad_number]][[path_number]] <- paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)] #Copy the names for the vertices along this path into all_paths, except for the source and destination of the path, as these are not BETWEEN the endpoints of the path, they ARE the endpoints
+             all_paths[dyad_number][[1]] <- append(all_paths[dyad_number][[1]], list(paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)]))
+#            all_paths[[dyad_number]][[path_number]] <- paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)] #Copy the names for the vertices along this path into all_paths, except for the source and destination of the path, as these are not BETWEEN the endpoints of the path, they ARE the endpoints
          } else { #If the path has only two vertices (the source and the destination) then there are no vertices between them
             all_paths[[dyad_number]][[path_number]] <- numeric(0)
          }
@@ -158,7 +159,8 @@ compute_targbetween <- function(network, paths, num_dyads, update = 0) {
             path_number <- 1
          }
          if(length(paths[i][[1]]$name) > 2) {
-            all_paths[[dyad_number]][[path_number]] <- paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)] #Copy the names for the vertices along this path into all_paths, except for the source and destination of the path, as these are not BETWEEN the endpoints of the path, they ARE the endpoints
+             all_paths[dyad_number][[1]] <- append(all_paths[dyad_number][[1]], list(paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)]))
+#            all_paths[[dyad_number]][[path_number]] <- paths[i][[1]]$name[2:(length(paths[i][[1]]$name)-1)] #Copy the names for the vertices along this path into all_paths, except for the source and destination of the path, as these are not BETWEEN the endpoints of the path, they ARE the endpoints
          } else { #If the path has only two vertices (the source and the destination) then there are no vertices between them
             all_paths[[dyad_number]][[path_number]] <- numeric(0)
          }
