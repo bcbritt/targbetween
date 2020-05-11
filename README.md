@@ -3,6 +3,8 @@ Computes targeted betweenness centrality as described in Britt et al. (under rev
 
 Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P., Parrott, M. S., & Albright, D. (under review). Targeted betweenness centrality: An approach to identify bridges between specified network alters. Manuscript submitted to _Social Networks_.
 
+
+
 ## Installation
 
 To use this package, first install and load it in R with
@@ -11,6 +13,8 @@ To use this package, first install and load it in R with
 install_github("bcbritt/targbetween")
 library("targbetween")
 ```
+
+
 
 ## Usage
 
@@ -39,6 +43,8 @@ Chris  Diana
 Diana  Ashley
 Diana  Emily
 ```
+
+
 
 ### Required Arguments
 
@@ -74,6 +80,8 @@ Chris  Diana
 Diana  Ashley
 Diana  Emily
 ```
+
+
 
 ### Optional Arguments
 

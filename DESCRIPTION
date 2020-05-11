@@ -1,0 +1,26 @@
+Package: targbetween
+Title: Targeted Betweenness Centrality
+Version: 0.9.0
+Authors@R: 
+    person(given = "Brian",
+           family = "Britt",
+           role = c("aut", "cre"),
+           email = "bcbritt@ua.edu",
+           comment = c(ORCID = "0000-0002-1521-3258"))
+Description: This package provides several functions to compute targeted
+    betweenness centrality for igraph-formatted network and specified
+    pairs of vertices. If you use this package, please cite the original
+    article: Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P.,
+    Parrott, M. S., & Albright, D. (under review). Targeted betweenness
+    centrality: An approach to identify bridges between specified network
+    alters. Manuscript submitted to Social Networks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    igraph
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
