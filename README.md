@@ -10,6 +10,8 @@ Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P., Parrott, M. S., & A
 To use this package, first install and load it in R with
 
 ```r
+install.packages("devtools")
+library(devtools)
 install_github("bcbritt/targbetween")
 library("targbetween")
 ```
