@@ -1,5 +1,9 @@
 # targbetween: Targeted Betweenness Centrality
-Computes targeted betweenness centrality as described in Britt et al. (under review).
+Computes targeted betweenness centrality as described in Britt et al. (in press).
+
+If you use this package, please cite the original manuscript:
+
+Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P., Parrott, S., & Albright, D. (in press). Using targeted betweenness centrality to identify bridges to neglected users in the Twitter conversation on veteran suicide. Manuscript accepted for publication at _Social Network Analysis and Mining_.
 
 
 
