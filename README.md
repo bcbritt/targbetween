@@ -1,5 +1,5 @@
 # targbetween: Targeted Betweenness Centrality
-Computes targeted betweenness centrality as described in Britt et al. (in press).
+Computes targeted betweenness centrality as described in Britt et al. (2021).
 
 If you use this package, please cite the original manuscript:
 
