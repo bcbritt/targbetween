@@ -3,7 +3,7 @@ Computes targeted betweenness centrality as described in Britt et al. (in press)
 
 If you use this package, please cite the original manuscript:
 
-Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P., Parrott, S., & Albright, D. (in press). Using targeted betweenness centrality to identify bridges to neglected users in the Twitter conversation on veteran suicide. Manuscript accepted for publication at _Social Network Analysis and Mining_.
+Britt, B. C., Hayes, J. L., Musaev, A., Sheinidashtegol, P., Parrott, S., & Albright, D. L. (2021). Using targeted betweenness centrality to identify bridges to neglected users in the Twitter conversation on veteran suicide. _Social Network Analysis and Mining, 11_, article 40. Retrieved from https://doi.org/10.1007/s13278-021-00747-x
 
 
 
